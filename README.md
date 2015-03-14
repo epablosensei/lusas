@@ -1,4 +1,4 @@
-Lnux/unix security auditing scripts "Lusas"
+Linux/unix security auditing scripts "Lusas"
 ============================================
 This is a collection of command line security auditing scripts for Linux/Unix. 
 Originally by Sean Boran in 2000, Pablo Endres took over the project in 2008.
