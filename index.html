@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Lusas by epablosensei</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/epablosensei/lusas">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/epablosensei/lusas/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/epablosensei/lusas/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Lusas</h1>
+          <p>Linux/unix security auditing scripts &quot;Lusas&quot;</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/epablosensei">epablosensei</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="lusas" class="anchor" href="#lusas" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lusas</h1>
+
+<p>This is a collection of command line security auditing scripts for Linux/Unix. 
+Originally by Sean Boran in 2000, Pablo Endres took over the project in 2008.</p>
+
+<p>License: <strong>GPL v3.0</strong></p>
+
+<p>Please share any fixes/improvements you make, if possible. Or help with documentation.
+Starting Points </p>
+
+<ul>
+<li><a href="https://github.com/epablosensei/lusas/">https://github.com/epablosensei/lusas/</a></li>
+<li><a href="https://www.pabloendres.com/tools/">https://www.pabloendres.com/tools/</a></li>
+<li>Also <a href="http://boran.com/audit">http://boran.com/audit</a>
+</li>
+</ul>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>USAGE:</h3>
+
+<p>./lusas-basic.sh [option]</p>
+
+<p><strong>OPTIONS:</strong></p>
+
+<div class="highlight highlight-shell"><pre>   -h   Show this message
+   -d   email or emails where to send the results. i.e.: a@example.com,b@example.com,root
+   -e   Extended.  Collect a copy of files
+   -s   Verify package checksums
+   -l   Don<span class="pl-s1"><span class="pl-pds">'</span>t clean up after run. Leave the directory with the results on disk.</span>
+<span class="pl-s1">   -c   Cleanup after run, leave nothing behind.</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    If neither -l or -c are not set a .tar.gz file with the result will be left on disk.</span></pre></div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
